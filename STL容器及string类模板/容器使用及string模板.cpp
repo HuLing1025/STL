@@ -1,9 +1,9 @@
 /*
-*@@@³ÌĞò×÷Õß£ººúÁî 
-*@@@Íê³ÉÈÕÆÚ£º2018/8/20 -2018/8/24 
-*@@@³ÌĞò¹¦ÄÜ£ºÍê³ÉSTLÈİÆ÷ÒÔ¼°stringÀàÄ£°åµÄÊ¹ÓÃ 
+*@@@ç¨‹åºä½œè€…ï¼šèƒ¡ä»¤ 
+*@@@å®Œæˆæ—¥æœŸï¼š2018/8/20 -2018/8/24 
+*@@@ç¨‹åºåŠŸèƒ½ï¼šå®ŒæˆSTLå®¹å™¨ä»¥åŠstringç±»æ¨¡æ¿çš„ä½¿ç”¨ 
 */ 
-/*°üº¬²Ù×÷º¯ÊıÍ·ÎÄ¼ş*/
+/*åŒ…å«æ“ä½œå‡½æ•°å¤´æ–‡ä»¶*/
 #include"operation.h"
 
 int main()
@@ -18,46 +18,46 @@ int main()
         if(chooce==0)	break;
         switch(chooce)
         {
-            case 1:{	//vectorÈİÆ÷ 
+            case 1:{	//vectorå®¹å™¨ 
                 opra_vector();
                 break;
             }
-            case  2 :{	//listÈİÆ÷
+            case  2 :{	//listå®¹å™¨
                 opra_list();
                 break;
             }
-            case  3 :{	//dequeÈİÆ÷
+            case  3 :{	//dequeå®¹å™¨
                 opra_deque();
                 break;
             }
-            case  4 :{	//set/multisetÈİÆ÷
+            case  4 :{	//set/multisetå®¹å™¨
                 opra_set();
                 break;
             }
-            case  5 :{	//map/multimapÈİÆ÷
+            case  5 :{	//map/multimapå®¹å™¨
                 opra_map();
                 break;
             }
-            case  6 :{	//bitsetÈİÆ÷
+            case  6 :{	//bitsetå®¹å™¨
                 opra_bitset();
                 break;
             }
-            case  7 :{	//stackÈİÆ÷
+            case  7 :{	//stackå®¹å™¨
                 opra_stack();
                 break;
             }
-            case  8 :{	//queueÈİÆ÷
+            case  8 :{	//queueå®¹å™¨
                 opra_queue();
                 break;
             }
-            case  9 :{	//priority_queueÈİÆ÷
+            case  9 :{	//priority_queueå®¹å™¨
                 opra_pri_queue();
                 break;
             }
-            case 10:{	//stringÀà 
+            case 10:{	//stringç±» 
             	opra_string();
-				break;
-			}
+		break;
+	    }
         }
     }
     return 0;
